@@ -39,6 +39,7 @@ def checkuser():
         mycursor.execute(sql, adr)
 
         print("I am here...")
+
         myresult = mycursor.fetchall()
         print("Count:",mycursor.rowcount)
         if mycursor.rowcount:
