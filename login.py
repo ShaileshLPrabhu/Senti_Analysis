@@ -4,7 +4,7 @@ from tkinter import messagebox
 from Admin import AdminHome
 
 
-# creating main window
+# creating the main window
 
 top = Tk()
 top.geometry("600x400")

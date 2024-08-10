@@ -112,17 +112,17 @@ class AdminHome:
                     POS = POS + ss.get(p[2])
                 if NEG > NEU:
                     if NEG > POS:
-                        print("Negative Emotion", NEG)
+                        print("Negative Emotion.", NEG)
                     else:
-                        print("Positive Emotion", POS)
+                        print("Positive Emotion.", POS)
                 else:
                     if NEU > POS:
-                        print("Neutral Emotion", NEU)
+                        print("Neutral Emotion.", NEU)
                     else:
-                        print("Positive Emotion", POS)
+                        print("Positive Emotion.", POS)
 
             except:
-                print('Sorry.. run again...')
+                print('Sorry... run again...')
 
 #cp = Tk()
 #w = AdminHome(cp)
